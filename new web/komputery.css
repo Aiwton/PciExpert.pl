@@ -1,0 +1,100 @@
+/* Общие стили */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Стили для меню */
+
+.navbar {
+  background-color: #000000;
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Стили для основного содержимого */
+
+.main {
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* Стили для заголовка страницы */
+
+.page-header {
+  margin-top: 0;
+}
+
+/* Стили для карточек компьютеров */
+
+.card {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-title {
+  font-size: 1.7rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+.card-link {
+  float: right;
+}
+
+/* Респонсивный дизайн */
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem 0;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+}
